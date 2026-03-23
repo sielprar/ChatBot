@@ -1,0 +1,918 @@
+{
+  "intents": [
+    {
+      "tag": "Cuts",
+      "patterns": [
+        "What to do if Cuts?",
+        "How to cure Cuts?",
+        "Which medicine to apply for Cuts?",
+        "what to apply on cuts?",
+        "Cuts",
+        "I have a cut",
+        "bleeding from a small cut",
+        "how to stop bleeding from a cut",
+        "first aid for laceration"
+      ],
+      "responses": [
+        "Wash the cut properly to prevent infection and stop the bleeding by applying pressure for 1-2 minutes until bleeding stops. Apply petroleum jelly to keep the wound moist for healing. Cover with a sterile bandage. You may use acetaminophen for pain if appropriate.",
+        "For a minor cut: apply direct pressure with clean gauze or cloth, rinse with clean water, pat dry, apply a thin layer of antibiotic ointment if available, and bandage. Seek urgent care if bleeding won't stop, the wound is deep, or you were not vaccinated for tetanus.",
+        "Paramedic note: control bleeding first with firm pressure; protect the scene; if the cut is deep, gaping, or caused by a dirty object, advise medical evaluation and tetanus status review."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Whats up",
+        "hey",
+        "good morning",
+        "good evening",
+        "are you there",
+        "start",
+        "menu",
+        "help me"
+      ],
+      "responses": [
+        "Hi — I'm your paramedic assistant. Ask me about first aid, injuries, or emergencies and I'll share guidance. For life-threatening emergencies, always call your local emergency number.",
+        "Hello. I can help with first-aid steps for many situations. What symptoms or injury should we talk about?",
+        "Good to hear from you. Describe what happened or what hurts, and I'll walk you through initial care — and remind you when to call EMS.",
+        "Hey. I'm here to help with basic first aid and triage-style questions. What do you need?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "cya",
+        "See you later",
+        "Goodbye",
+        "I am Leaving",
+        "Have a Good day",
+        "bye",
+        "thanks bye",
+        "that's all",
+        "end chat"
+      ],
+      "responses": [
+        "Stay safe. If something gets worse, don't hesitate to seek professional care or call emergency services.",
+        "Take care — remember ABC (Airway, Breathing, Circulation) in an emergency. Goodbye!",
+        "Goodbye. Wishing you a quick recovery if you're dealing with an injury.",
+        "See you later. For anything serious, trust EMS and hospital care over chat advice."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Abrasions",
+      "patterns": [
+        "how do you treat abrasions?",
+        "Do Abrasions cause scars?",
+        "Abrasions",
+        "what to do if abrasions?",
+        "Which medicine to apply for abrasions?",
+        "How to cure abrasions?",
+        "scraped knee",
+        "road rash"
+      ],
+      "responses": [
+        "Begin with washed hands. Gently clean the area with cool to lukewarm water and mild soap. Remove dirt with sterilized tweezers if needed. For bleeding, apply gentle pressure. Use a thin layer of antibiotic ointment and a clean bandage; change daily. Watch for infection (redness, warmth, pus) and seek care if it spreads.",
+        "For abrasions: rinse debris away, dry, apply ointment if available, cover loosely. Large or dirty abrasions may need a clinician — especially if tetanus is not up to date."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "stings",
+      "patterns": [
+        "How do you treat Sting?",
+        "Stings",
+        "What to do if you get a sting?",
+        "Which medicine to apply if sting?",
+        "bee sting",
+        "wasp sting"
+      ],
+      "responses": [
+        "Remove any stinger (scrape sideways; don't squeeze). Wash with soap and water. Cold pack 15–20 minutes wrapped in cloth. Antihistamine may help itching; follow label directions. Seek emergency care for throat swelling, trouble breathing, or widespread hives (possible anaphylaxis).",
+        "Sting care: cool the area, watch for allergic reaction. If the person has prescribed epinephrine and shows severe allergy signs, use it and call EMS immediately."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Splinter",
+      "patterns": [
+        "How to remove Splinters",
+        "How to cure Splinters?",
+        "What to do if I have splinters?",
+        "How do you bring a splinter to the surface?",
+        "splinter in finger"
+      ],
+      "responses": [
+        "Soak in warm water or Epsom salts to soften skin. Gently clean tweezers and pull the splinter out along its entry angle. If deep, infected, or you can't remove it, get medical help — especially if it's near the eye or under a nail.",
+        "Oil or tape may help tiny splinters surface overnight. Do not dig aggressively; risk of infection rises."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Sprains",
+      "patterns": [
+        "How do you treat a sprain?",
+        "what to do if i get a sprain?",
+        "Which cream to apply if i get a sprain?",
+        "Which medicine to apply if I get a sprain?",
+        "twisted ankle",
+        "ankle sprain"
+      ],
+      "responses": [
+        "Use RICE: Rest, Ice (15–20 min, cloth barrier), Compression with elastic wrap, Elevation above heart. OTC pain relief may help if safe for the person. If severe pain, deformity, numbness, or inability to bear weight — seek x-ray for possible fracture.",
+        "Sprain: ice early, don't heat in the first 48 hours typically; gradual return to motion as tolerated after assessment if needed."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Strains",
+      "patterns": [
+        "How do you treat a strain?",
+        "what to do if i get a strain?",
+        "Which cream to apply if i get a strain?",
+        "Which medicine to apply if I get a strain?",
+        "How do you diagnose a strain?",
+        "Is heat or ice better for a pulled muscle?",
+        "pulled muscle"
+      ],
+      "responses": [
+        "Rest, ice (wrapped), compression if swelling, elevation. Avoid heat immediately after acute injury. Gradual stretching later per clinician advice. Severe pain or loss of function needs evaluation.",
+        "Strains: protect the muscle, cool the area, then light movement as pain allows — escalate care if a snap was heard or weakness is major."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Fever",
+      "patterns": [
+        "How do you treat a mild Fever?",
+        "what to do if i get a mild fever?",
+        "Which medicine to take if I get a mild fever?",
+        "fever",
+        "high temperature",
+        "feeling hot and cold"
+      ],
+      "responses": [
+        "Fluids, light clothing, acetaminophen or ibuprofen if appropriate for age/conditions (avoid ibuprofen in some kidney/stomach issues; follow local dosing). Seek care for fever with stiff neck, rash, confusion, trouble breathing, or lasting more than a few days — or any infant under 3 months with fever.",
+        "Mild fever: hydrate, rest, monitor. Emergency if the person is confused, breathing hard, or looks very ill."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Nasal Congestion",
+      "patterns": [
+        "How do you treat nasal Congestion?",
+        "what to do if i get a nasal congestion?",
+        "Which medicine to take if I have a nasal congestion?",
+        "what to do if i have a blocked nose?",
+        "How do you treat a blocked nose?",
+        "How long does nasal congestion last?",
+        "stuffy nose"
+      ],
+      "responses": [
+        "Humidified air, fluids, saline nasal rinse if available, warm compresses. OTC decongestants only if safe for the person's blood pressure and age — read labels. Green/red flags: high fever, severe facial pain — see a clinician.",
+        "Congestion: steamy shower can help; avoid dehydration. For infants, use suction bulb and saline drops — ask a pediatrician if breathing looks labored."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Cough",
+      "patterns": [
+        "How to cure cough?",
+        "How do you treat cough?",
+        "what to do if i get a cough?",
+        "Which medicine to take if I get cough?",
+        "How do you get rid of cough?",
+        "persistent cough"
+      ],
+      "responses": [
+        "Honey for adults/older children in warm drink (not under 1 year). Hydration, humidifier, ginger tea. Seek urgent care for cough with blood, chest pain, severe shortness of breath, or high fever.",
+        "Cough: treat the cause when known (cold vs asthma flare, etc.). If wheezing or lips turn blue — emergency."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Sore Throat",
+      "patterns": [
+        "How do you treat sore throat?",
+        "what to do if i get a sore throat?",
+        "Which medicine to take if I get a sore throat?",
+        "How to cure sore throat?",
+        "painful throat"
+      ],
+      "responses": [
+        "Fluids, rest, warm salt-water gargle, throat lozenges if safe. Acetaminophen/ibuprofen for pain if appropriate. See a clinician for severe pain, drooling, muffled voice, or rash with fever (possible strep or other causes).",
+        "Sore throat with trouble swallowing saliva or noisy breathing is an emergency."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Gastrointestinal problems",
+      "patterns": [
+        "How do you treat gas problems?",
+        "what to do if i have Gastrointestinal problems?",
+        "Which medicine to take if I get gas problem?",
+        "How to cure Gas problems?",
+        "upset stomach",
+        "nausea and stomach pain"
+      ],
+      "responses": [
+        "Small sips of clear fluids, bland foods when tolerated, avoid alcohol and heavy spices. Don't use antidiarrheals in suspected toxic ingestion without advice. Worsening pain, blood in vomit/stool, or rigid abdomen — emergency.",
+        "GI upset: prioritize hydration; seek care for dehydration signs (very dry mouth, minimal urine, dizziness)."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Skin problems",
+      "patterns": [
+        "How do you treat Skin problems?",
+        "what to do if i get a skin allergy?",
+        "Which medicine to take if I get a skin allergy?",
+        "How to cure skin allergy?",
+        "itchy rash"
+      ],
+      "responses": [
+        "Cool compresses, mild soap, hydrocortisone cream short-term on intact skin if appropriate, oral antihistamine for itch. Avoid scratching. Spread quickly, face/lip swelling, or breathing issues — call EMS (possible anaphylaxis).",
+        "Skin reaction: remove suspected trigger (plant oil, new detergent). Photograph rash if it changes — useful for clinicians."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Abdonominal Pain",
+      "patterns": [
+        "How do you treat Abdonominal Pain?",
+        "what to do if i get a Abdonominal Pain?",
+        "Which medicine to take if I get a Abdonominal Pain?",
+        "How to cure Abdonominal Pain?",
+        "stomach ache",
+        "abdominal pain"
+      ],
+      "responses": [
+        "Clear fluids, bland diet, avoid NSAIDs if bleeding ulcer suspected. Emergency if sudden severe pain, rigid abdomen, vomiting blood, or pain with pregnancy — possible surgical problem.",
+        "Abdominal pain with shoulder tip pain, fainting, or fever needs urgent evaluation."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Bruises",
+      "patterns": [
+        "How do you treat Bruises?",
+        "what to do if i get a Bruise?",
+        "Which medicine to take if I get a Bruise?",
+        "How to cure Bruises?",
+        "bruising after fall"
+      ],
+      "responses": [
+        "Ice 10–20 minutes with barrier, light compression if swollen, elevation. After 48 hours, gentle heat may help comfort. Large bruises without injury, or bruising with nose/gum bleeding — get medical workup.",
+        "Bruise: watch for compartment symptoms — severe pain with passive stretch — rare but urgent."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Broken Toe",
+      "patterns": [
+        "How do you treat a Broken Toe?",
+        "what to do if i get a Broken Toe?",
+        "Which medicine to take if I get a Broken Toe?",
+        "How to cure Broken Toe?",
+        "toe injury",
+        "stubbed toe badly"
+      ],
+      "responses": [
+        "Rest, ice, elevation, stiff-soled shoe or buddy-taping if simple toe fracture per clinician advice. Open fracture, numb/cold toe, or deformity — emergency department.",
+        "Broken toe: avoid running through pain; X-ray often clarifies treatment."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Choking",
+      "patterns": [
+        "How do you treat Choking?",
+        "what to do if i get a Choke?",
+        "Which medicine to take if I get Choked?",
+        "How to cure Choking?",
+        "someone is choking",
+        "Heimlich maneuver"
+      ],
+      "responses": [
+        "If coughing effectively, encourage continued coughing. If silent cough, cyanosis, or can't speak: for adults/children give 5 back blows then 5 abdominal thrusts; repeat. Infants use back blows and chest thrusts — take a certified course. Call EMS if obstruction remains.",
+        "Choking: after successful removal, the person should still be evaluated — residual injury can occur. Learn CPR/choking skills hands-on."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Wound",
+      "patterns": [
+        "How do you treat a wound?",
+        "what to do if i get a Wound?",
+        "Which medicine to take if I get wounded?",
+        "How to cure a wound?",
+        "open wound",
+        "bleeding wound"
+      ],
+      "responses": [
+        "Direct pressure, elevate if possible, clean when bleeding controlled, dress sterile. Tourniquet only for life-threatening limb bleeding with proper training — loosen ASAP with care.",
+        "Wound: embedded objects may need to stay in place and be stabilized — don't remove impaled items; pad around and get EMS."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Diarrhea",
+      "patterns": [
+        "How do you treat Diarrhea?",
+        "what to do if i get Diarrhea?",
+        "Which medicine to take if I get Diarrhea?",
+        "How to cure Diarrhea?",
+        "loose stools"
+      ],
+      "responses": [
+        "Oral rehydration: small frequent sips of oral rehydration solution or diluted juice + salty cracker pattern if ORS unavailable. Avoid dairy temporarily in some cases. Blood in stool, high fever, or confusion — seek care.",
+        "Diarrhea in elderly or infants dehydrates fast — watch urine output and mental status."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Frost bite",
+      "patterns": [
+        "How do you treat a Frost bite?",
+        "what to do if i get a Frost bite?",
+        "Which medicine to take if I get a Frost bite?",
+        "How to cure Frost bite?",
+        "cold injury fingers",
+        "frozen skin"
+      ],
+      "responses": [
+        "Move to warmth, remove wet clothing, rewarm frostbitten areas in warm (not hot) water 37–39°C if available. Do not rub ice-affected tissue. Do not rewarm if refreezing may occur before definitive care — then stabilize and seek hospital. Severe cases need emergency care.",
+        "Frostbite: numb white-gray skin is serious — protect the area, pad for transport, avoid walking on frostbitten feet once thawing starts."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Heat Exhaustion",
+      "patterns": [
+        "How do you treat Heat Exhaustion?",
+        "what to do if i feel Exhausted due to heat?",
+        "Which medicine to take if I get Exhausted?",
+        "How to cure Heat Exhaustion?",
+        "too hot dizzy",
+        "heat stress"
+      ],
+      "responses": [
+        "Move to cool place, loosen clothing, cool with fans/mist, give cool oral fluids if fully conscious. Lie down with legs elevated. If confusion, vomiting, or temp very high — treat as heat stroke and call EMS.",
+        "Heat exhaustion: salt-containing fluids may help if not contraindicated; stop activity until recovered."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Heat Stroke",
+      "patterns": [
+        "How do you treat Heat Stroke?",
+        "what to do if i get a Heat Stroke?",
+        "Which medicine to take if I get Stroke?",
+        "How to cure a Heat Stroke?",
+        "hot and confused",
+        "heat emergency"
+      ],
+      "responses": [
+        "EMERGENCY: Call EMS. Move to shade, remove excess clothing, active cooling — cold packs to neck/groin/armpits, mist and fan. Heat stroke = hot dry or wet skin, altered mental status, often very high temperature. Rapid cooling saves lives.",
+        "Do not give oral fluids if altered consciousness — airway first. This is not the same as 'stroke' from a clot — but still a medical emergency."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Insect Bites",
+      "patterns": [
+        "How do you treat a Insect Bite?",
+        "what to do if a insect bites me?",
+        "Which medicine to take if I get bitten by a insect?",
+        "How to cure insect bite?",
+        "mosquito bite",
+        "bug bite swollen"
+      ],
+      "responses": [
+        "Wash site, cold compress, antihistamine cream or oral antihistamine for itch. Watch for infection spreading redness or systemic allergy. Tick bites: remove tick with fine tweezers close to skin, pull steady; save tick if Lyme is a concern per local guidance.",
+        "Insect bite: pain with spreading red streaks or fever — see a clinician."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "nose bleed",
+      "patterns": [
+        "How do you treat a bleeding nose?",
+        "what to do if i my nose is bleeding?",
+        "Which medicine to take if I get nose bleed?",
+        "How to cure nose bleeding?",
+        "epistaxis",
+        "nosebleed"
+      ],
+      "responses": [
+        "Sit leaning forward (not back), pinch soft part of nose continuously 10–15 minutes, breathe through mouth. Cold compress on bridge may help. If bleeding heavy, on blood thinners, or won't stop — emergency care.",
+        "Avoid blowing nose right after; seek help if nosebleeds are frequent or after head injury."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Pulled Muscle",
+      "patterns": [
+        "How do you treat a Pulled Muscle?",
+        "what to do if my muscle is pulled?",
+        "Which medicine to take if I got pulled muscle?",
+        "How to cure a pulled muscle?",
+        "muscle strain help"
+      ],
+      "responses": [
+        "Rest the muscle, ice early, light compression, elevation if limb. Pain control per safe OTC options. Gradual return; physical therapy if recurrent. Pop sound with immediate weakness — possible tendon tear — get evaluated.",
+        "Pulled muscle vs DVT leg pain: if calf swollen/red/hot with travel risk factors — urgent rule-out."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Rectal bleeding",
+      "patterns": [
+        "How do you treat Rectal Bleeding?",
+        "what to do if i get a Rectal Bleeding?",
+        "Which medicine to take if I get Rectal Bleeding?",
+        "How to cure Rectal Bleeding?",
+        "blood when wiping",
+        "bleeding from bottom"
+      ],
+      "responses": [
+        "Any rectal bleeding should be assessed by a clinician — same day if large volume, black tarry stool, dizziness, or abdominal pain. While waiting: note color and amount; avoid aspirin/NSAIDs unless prescribed.",
+        "Heavy ongoing bleeding or fainting — call EMS. This chat cannot diagnose hemorrhoids vs serious causes."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Sun Burn",
+      "patterns": [
+        "How do you treat Sun Burn?",
+        "what to do if i get a Sun Burn?",
+        "Which medicine to take if I get Sun Burn?",
+        "How to cure a Sun Burn?",
+        "sunburn bad",
+        "burned skin from sun"
+      ],
+      "responses": [
+        "Cool baths/showers, aloe gel, hydrate, ibuprofen if safe for pain/swelling. Blistering burns cover loosely; don't pop blisters. Sunburn with fever, confusion, or widespread — urgent care.",
+        "Prevention: SPF, shade, reapply sunscreen — paramedics often see heat illness combined with sunburn in the field."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Testicle Pain",
+      "patterns": [
+        "How do you treat Testicle Pain?",
+        "what to do if i get a Testicle Pain?",
+        "Which medicine to take if I get a Testicle Pain?",
+        "How to cure Testicle Pain?",
+        "testicular pain sudden",
+        "scrotal pain"
+      ],
+      "responses": [
+        "Sudden severe testicular pain is a time-sensitive emergency (possible torsion) — go to ER immediately; do not delay for chat advice. Support scrotum, avoid vigorous activity en route.",
+        "Gradual ache may have other causes — still needs clinician exam if persistent."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Vertigo",
+      "patterns": [
+        "How do you treat a Vertigo?",
+        "what to do if i get a Vertigo?",
+        "Which medicine to take if I get Vertigo?",
+        "How to cure a Vertigo?",
+        "room spinning",
+        "dizzy spells"
+      ],
+      "responses": [
+        "Sit or lie down to prevent falls; move slowly. Hydrate. New severe vertigo with weakness, slurred speech, facial droop, or worst headache — stroke protocol: call EMS (FAST).",
+        "Benign positional vertigo has specific maneuvers a clinician/PT can teach — don't drive while symptomatic."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Normal Bleeding",
+      "patterns": [
+        "How do you treat bleeding?",
+        "what to do if i get a Bleeding?",
+        "Which medicine to take if I get bleeding?",
+        "How to cure Bleeding?",
+        "heavy bleeding first aid",
+        "stop bleeding"
+      ],
+      "responses": [
+        "Direct pressure with clean cloth/gauze — most bleeding stops with firm steady pressure. Elevate limb if not fractured. Tourniquet only for life-threatening extremity hemorrhage with training; note time applied. Call EMS for spurting blood, shock signs, or uncontrolled bleed.",
+        "Bleeding control: wear gloves if possible; after bleeding stops, clean and dress; consider tetanus for dirty wounds."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Eye Injury",
+      "patterns": [
+        "How do you treat an eye Injury?",
+        "what to do if i get a eye Injury?",
+        "Which medicine to take if I injured my eye?",
+        "How to cure injured eye?",
+        "something in my eye",
+        "chemical in eye"
+      ],
+      "responses": [
+        "Chemical splash: flush immediately with lots of clean water or saline for 15+ minutes; remove contacts during flush; call EMS/POISON line per local rules. Penetrating injury: shield eye with cup — do not press — emergency ophthalmology.",
+        "Foreign body: rinse from inner to outer corner; don't rub. Flash burns — urgent care. Vision loss or severe pain — emergency."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Chemical Burn",
+      "patterns": [
+        "How do you treat a chemical burn?",
+        "what to do if i get a Chemical Burn?",
+        "Which medicine to take if I get burn due to chemicals?",
+        "How to cure Chemical Burn?",
+        "acid on skin",
+        "alkali splash"
+      ],
+      "responses": [
+        "Remove contaminated clothing/jewelry, brush dry powder off first if applicable, then flush skin with running water 20+ minutes. Call local poison center. Do not neutralize with another chemical. Eye involvement — continuous irrigation and EMS.",
+        "Chemical burns can worsen over hours — even if mild at first, get professional assessment for larger areas or strong agents."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Poison",
+      "patterns": [
+        "How do you treat a Poison?",
+        "what to do if i get Poison?",
+        "Which medicine to take if I am poisoned?",
+        "How to cure Poisoning?",
+        "swallowed something toxic",
+        "overdose"
+      ],
+      "responses": [
+        "Do not induce vomiting unless poison center instructs. Call your regional poison control hotline with substance name, amount, time. If unconscious, not breathing, or seizing — EMS first. Bring container/label to hospital.",
+        "Activated charcoal is not universal — follow professional guidance. Some ingestions need antidotes in hospital."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Teeth",
+      "patterns": [
+        "How do you treat broken Teeth ?",
+        "what to do if my Teeth got broken?",
+        "Which medicine to take if I get broken teeth?",
+        "cure broken teeth?",
+        "tooth knocked out",
+        "dental trauma"
+      ],
+      "responses": [
+        "Knocked-out adult tooth: handle crown only, rinse gently if dirty, try reimplant immediately or store in milk/saline — dental emergency within 30–60 minutes ideal. Broken tooth fragments — save in milk; see dentist. Bleeding from socket — gauze pressure.",
+        "Tooth injury with jaw misalignment or head injury — protect airway and consider spine precautions if mechanism was violent."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "seizure",
+      "patterns": [
+        "How do you treat a seizure?",
+        "what to do if i get a seizure?",
+        "Which medicine to take if I get seizure?",
+        "How to cure seizure?",
+        "someone having a fit",
+        "convulsion"
+      ],
+      "responses": [
+        "Protect from injury — cushion head, loosen tight clothing, time the event. Do not put anything in mouth. After it stops, roll recovery position if breathing OK. First seizure, prolonged seizure (>5 min), pregnancy, or injury — EMS. Known epilepsy: follow care plan.",
+        "Status epilepticus (seizure won't stop) — emergency; may need benzodiazepines in hospital."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Head Injury",
+      "patterns": [
+        "How do you treat a head Injury?",
+        "what to do if i get a Head Injury?",
+        "Which medicine to take if I get injured in the head?",
+        "How to cure Head Injury?",
+        "hit my head",
+        "concussion"
+      ],
+      "responses": [
+        "Assess ABC. If awake: observe for worsening headache, vomiting, confusion, pupil changes, seizure — any red flag needs imaging/EMS. Elderly on blood thinners with even minor head bump — low threshold for ED.",
+        "Concussion: physical and cognitive rest per protocol; gradual return with clinician clearance for sport.",
+        "Spinal precautions if neck pain or high-energy mechanism until cleared."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Fainting",
+      "patterns": [
+        "How do you treat Faint?",
+        "what to do if i feel like Fainting?",
+        "Which medicine to take if I get a Faint?",
+        "How to cure Fainting?",
+        "passed out",
+        "syncope"
+      ],
+      "responses": [
+        "Lay person flat, elevate legs if no spine concern, loosen tight clothes, cool environment. If not awake in a minute, not breathing normally, or chest pain — EMS. After waking: sit up slowly, hydrate.",
+        "Fainting during exertion, with palpitations, or while lying down — needs cardiac workup — not 'simple' faint."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Headache",
+      "patterns": [
+        "How do you treat a mild Headache?",
+        "what to do if i get a mild Headache?",
+        "Which medicine to take if I have a mild headache?",
+        "How to cure a mild headache?",
+        "head hurts"
+      ],
+      "responses": [
+        "Hydration, rest, dim light, acetaminophen or ibuprofen if safe. Thunderclap worst-ever headache, fever with stiff neck, neuro deficits — emergency.",
+        "Avoid overuse of pain meds — rebound headaches are common."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Cold",
+      "patterns": [
+        "How do you treat a Cold?",
+        "what to do if i get a mild Cold?",
+        "Which medicine to take if I have a Cold?",
+        "How to cure Cold?",
+        "common cold",
+        "runny nose cold"
+      ],
+      "responses": [
+        "Fluids, rest, saline nasal rinse, honey for cough in adults, acetaminophen/ibuprofen for aches if appropriate. Most colds are viral — antibiotics don't help unless a bacterial complication develops.",
+        "Cold vs COVID/flu: test per local guidance if fever or exposure risk; isolate if contagious disease suspected."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Rash",
+      "patterns": [
+        "How do you treat Rashes?",
+        "what to do if i get a Rash?",
+        "Which medicine to take if I have a Rash?",
+        "How to cure Rash?",
+        "skin rash all over"
+      ],
+      "responses": [
+        "Avoid scratching; cool compresses; mild emollients; antihistamines for itch. Purple non-blanching rash with fever — emergency (possible meningitis). New medication rash with lip swelling — emergency.",
+        "Take photos for timeline; note new foods, drugs, contacts."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "snake bite",
+      "patterns": [
+        "How do you treat a snake bite?",
+        "what to do if i get a snake bite?",
+        "Which medicine to take if I get a snake bite?",
+        "How to cure snake bite?",
+        "i got bit by a snake",
+        "venomous snake"
+      ],
+      "responses": [
+        "Keep calm, immobilize limb at heart level, remove rings/watches, note snake appearance/photo if safe. Call EMS. Do not cut, suck, or apply tourniquet (old myths). Antivenom is hospital-based.",
+        "Monitor breathing; be ready to support airway if envenomation progresses."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "animal bite",
+      "patterns": [
+        "How do you treat a animal bite?",
+        "How do you treat a monkey bite?",
+        "How do you treat a dog bite?",
+        "what to do if i get a animal bite?",
+        "Which medicine to take if I get a monekey bite?",
+        "How to cure dog bite?",
+        "i got bit by a dog",
+        "cat bite"
+      ],
+      "responses": [
+        "Wash thoroughly with soap and water 5+ minutes, control bleeding, seek medical care for assessment — animal bites often need antibiotics and tetanus/rabies prophylaxis decisions.",
+        "Report stray animal bites per local public health; deep punctures (especially cat) infect easily."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Drowning",
+      "patterns": [
+        "What to do if someone is Drowning?",
+        "what to do if someone drowned?",
+        "What steps to take if i see a drowning person?",
+        "How to help a drowning person?",
+        "rescuing swimmer"
+      ],
+      "responses": [
+        "Only enter water if trained and safe — use reach/throw, don't swim. Get victim face-up, airway open, begin CPR if no pulse/breathing. Hypothermia and secondary drowning risk — all need hospital evaluation after significant submersion.",
+        "After rescue: even if they coughed up water, monitor breathing — pulmonary edema can worsen hours later."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "CPR",
+      "patterns": [
+        "How to give CPR??",
+        "what to do in a CPR?",
+        "What steps to take in a CPR??",
+        "How to help a drowning person in CPR?",
+        "chest compressions",
+        "how to do CPR"
+      ],
+      "responses": [
+        "Adult CPR: hard fast compressions center of chest 100–120/min, depth ~2 inches, allow full recoil; minimize pauses. If trained, 30:2 with rescue breaths. Use AED as soon as available — follow voice prompts.",
+        "Hands-only CPR is effective for witnessed adult collapse if breaths not desired — something is better than nothing. Take a certified course for skills practice.",
+        "Pediatric ratios differ — formal training recommended."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "Fracture",
+      "patterns": [
+        "How do you treat a Fracture?",
+        "what to do if i get a Fracture?",
+        "Which medicine to take if I have a Fracture?",
+        "How to cure a Fracture?",
+        "broken bone",
+        "suspected fracture"
+      ],
+      "responses": [
+        "Stop bleeding first, immobilize in position found (unless distal pulse absent — then one gentle alignment attempt if trained), splint above/below joint, ice over splint, check circulation after. Open fractures: cover with clean dressing, EMS.",
+        "Don't test range of motion on scene if deformity — splint and transport."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "allergic_reaction",
+      "patterns": [
+        "allergic reaction",
+        "severe allergy",
+        "throat closing",
+        "face swelling allergy",
+        "anaphylaxis",
+        "EpiPen",
+        "can't breathe allergy"
+      ],
+      "responses": [
+        "Suspected anaphylaxis: call EMS immediately. If the person has prescribed epinephrine auto-injector, use it in outer thigh and note time. Lay flat with legs raised unless breathing is easier sitting. Be prepared to start CPR if they stop breathing.",
+        "Mild hives only: antihistamine may help; still watch closely — reactions can escalate. After any epinephrine use, hospital observation is usually needed."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "shock",
+      "patterns": [
+        "signs of shock",
+        "patient in shock",
+        "cold clammy skin",
+        "weak rapid pulse",
+        "hypovolemic shock"
+      ],
+      "responses": [
+        "Shock: call EMS. Lay person supine, keep warm, elevate legs ~30 cm if no spinal injury suspected. Do not give food or drink if altered or surgical abdomen possible. Treat cause when known — bleeding control, allergy, heart issue — all need hospital.",
+        "Reassess breathing and responsiveness frequently while waiting for EMS."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "stroke",
+      "patterns": [
+        "stroke symptoms",
+        "FAST stroke",
+        "face drooping",
+        "slurred speech sudden",
+        "one side weak"
+      ],
+      "responses": [
+        "Think FAST: Face droop, Arm drift, Speech slurred, Time to call EMS — stroke care is time-critical; clot-busting or thrombectomy windows are short. Note last known well time.",
+        "Do not give aspirin if stroke type unknown (could worsen hemorrhagic stroke). Keep airway clear; nothing by mouth if swallowing unsafe."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "heart_attack",
+      "patterns": [
+        "chest pain",
+        "heart attack",
+        "crushing chest pain",
+        "pain radiating to arm",
+        "nitroglycerin"
+      ],
+      "responses": [
+        "Suspected heart attack: call EMS; allow rest, loosen clothing, aspirin 325 mg chewable if not allergic and not contraindicated — only if advised by dispatch/protocol. Oxygen not routine without training. Defibrillator if cardiac arrest.",
+        "Women and diabetics may have atypical symptoms — shortness of breath, nausea, back pain — still take seriously."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "hypoglycemia",
+      "patterns": [
+        "low blood sugar",
+        "diabetic emergency",
+        "insulin shock",
+        "shaky sweaty diabetic"
+      ],
+      "responses": [
+        "If awake and able to swallow: fast-acting sugar — juice, glucose gel, regular soda (not diet). Recheck in 15 minutes. If not improving, or unconscious — EMS; glucagon if trained/family has it for unconscious known diabetic.",
+        "After correction, eat complex carb + protein when stable. If unconscious — don't put food in mouth; recovery position if breathing."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "unconscious",
+      "patterns": [
+        "person won't wake up",
+        "unconscious patient",
+        "not responding",
+        "check breathing unresponsive"
+      ],
+      "responses": [
+        "Shout-tap-shout. If no response, open airway (head tilt–chin lift if no trauma suspected; jaw thrust if trauma). Look-listen-feel breathing max 10 sec. Normal breathing — recovery position. Not breathing / agonal — start CPR, get AED.",
+        "If opioid suspected and naloxone available — follow local EMS protocol; still call EMS — effects can wear off."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "spinal_injury",
+      "patterns": [
+        "neck injury",
+        "spinal injury",
+        "don't move neck",
+        "diving accident"
+      ],
+      "responses": [
+        "Manual inline stabilization of head/neck; log-roll only with enough trained helpers. Do not pull helmet off if airway OK in sports gear — follow protocol. Any midline neck pain + numbness/weakness — EMS with spinal precautions.",
+        "Assume spine injury in high-speed crashes or falls from height until cleared."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "burns",
+      "patterns": [
+        "first degree burn",
+        "second degree burn",
+        "scalding",
+        "burn from fire",
+        "thermal burn treatment"
+      ],
+      "responses": [
+        "Cool running water 10–20 minutes for superficial partial-thickness; remove jewelry near burn; cover with sterile non-fluffy dressing. Large burns, face/genitals, circumferential, or airway — EMS. Do not apply ice directly or butter/oils.",
+        "Electrical/chemical burns need specific protocols — always get advanced care."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "when_to_call_ems",
+      "patterns": [
+        "when to call ambulance",
+        "should I call 911",
+        "when to go to ER",
+        "emergency or not",
+        "call emergency"
+      ],
+      "responses": [
+        "Call EMS for: trouble breathing, chest pain, stroke signs, severe bleeding, unconsciousness, major trauma, anaphylaxis, suspected heart attack, serious burns, poisoning with symptoms, childbirth complications, or anything that feels immediately life-threatening.",
+        "If unsure, many regions advise calling — dispatch can triage. It's better to activate EMS early than wait until someone crashes."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "paramedic_role",
+      "patterns": [
+        "what does a paramedic do",
+        "paramedic vs emt",
+        "what is EMS",
+        "prehospital care"
+      ],
+      "responses": [
+        "Paramedics provide advanced prehospital care: airway management, cardiac monitoring, medications, trauma care, and rapid transport to definitive care. I'm only an information assistant — not a substitute for licensed providers on scene.",
+        "EMT-Basic vs Paramedic differs by country; both work within protocols set by medical direction."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "disclaimer",
+      "patterns": [
+        "is this medical advice",
+        "can you diagnose",
+        "replace doctor",
+        "liability"
+      ],
+      "responses": [
+        "This assistant gives general first-aid education only. It does not replace examination by a licensed clinician, EMS, or your local emergency number. In doubt or serious symptoms — seek professional care immediately.",
+        "Always follow dispatch instructions and local protocols in an emergency."
+      ],
+      "context_set": ""
+    }
+  ]
+}
